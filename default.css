@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+ /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+  margin-left: 0px; 
+  margin-top: 0px; 
+  margin-right: 0px; 
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color:#E6E6E8;
+  color: #333;  
+  font-family: Verdana, Geneva, sans-serif ;
+  text-align: center; /* this centers the container in IE 5* browsers. 
+	 		The text is then set to the left aligned default in the #container selector */
+}
+
+a { color: #666; font-size: 12px; text-decoration: underline; }
+p-red { color: #f00; font-size: 12px; font-weight: normal; line-height: 140%; text-align:justify; }
+p { color: #555; font-size: 12px; font-weight: normal; line-height: 140%; text-align:justify; }
+p-title { color: #555; font-size: 12px; font-weight: normal; line-height: 140%; text-align:left; }
+h1 { color: #444; font-size: 15px; font-weight: 500; line-height: 32px; padding-bottom: 16px; }
+h2 { color: #444; font-size: 18px; font-weight: 550; line-height: 32px; padding-bottom: 16px;  }
+h3 { color: #5a8cbf; font-size: 22px; font-weight: bold; text-align: center; letter-spacing: -1px; width: auto; margin-top: 0px; margin-bottom: -10px; }
+h4 { color: #383838; font-size: 32px; font-weight: bold; text-align: left; letter-spacing: -1px; width: auto; margin-top:-6px;
+     text-indent:18px;}  /* secondary page title */
+h5 { color: #AAA; font-size: 22px; font-weight: bold; margin: 1.33em 0; text-shadow: 0px 1px  #FFF;
+     margin-left:-32px; text-align:left; }  /* page title */
+h6 { color: #555; font-size: 11px; font-weight: normal;  }
+h7 { color: #555; font-size: 12px; font-weight: normal; line-height: 40px; padding-top: 6px; }
+h8 { color: #ddd; font-size: 32px; font-weight: bold; text-align: left; letter-spacing: -1px; 
+     position: absolute; top: -138px; left: 15px; width: 100%; }  /* main website title */
+
+#page-title {
+	text-indent:66px;
+	margin-top:-36px;
+	margin-bottom:60px;
+}
+
+#text_container {
+	position: relative;
+	background: #FAFAFA;
+	border:0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 16px;
+	width: 862px;
+	padding: 0px;
+}
+
+#content_block {
+  background: #FAFAFA;
+  border:0px solid #ccccdc;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  padding-top:0px;  
+  width: 906px;
+}
+
+#div-1c {
+  clear:both;
+}
+
+#divider-line {
+	margin-top:0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;	
+	height: 20px;
+	padding:0;
+	width: 100%;
+    background-color:#222;	
+    border-top:1px solid #111;
+    border-bottom:1px solid #111;
+}
+
+#content {
+  background: #FAFAFA;  
+  border:1px solid #D6D6D6;
+  border-top:1px solid #D6D6D6;  
+  border-bottom:0px solid #D6D6D6;    
+  border-radius:8px 8px 0px 0px !important;  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:46px;
+  margin-bottom:0px;
+  width: 1040px;
+  z-index: 2;  
+}
+
+

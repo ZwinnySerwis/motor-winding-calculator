@@ -1,0 +1,147 @@
+
+
+
+
+#jsContainer{
+	width:700px; 
+	border:1px solid #000; 
+	font-family:verdana,sans-serif;
+	font-size:12px;
+	text-align:center;
+	margin:auto;
+	padding-top:10px;
+}
+#jsContainer form input{
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.keinscript{
+	font-size:14px;
+	text-align:center;
+	font-weight:bold;
+	display:block;
+}
+#Ergebnis{
+	margin-top:10px;
+	font-weight:bold;
+	font-size:14px;
+	padding:5px;
+
+	overflow:auto;
+}
+#Rasten{
+	margin-top:10px;
+	font-size:14px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#Berechnen{
+	cursor:pointer;
+	cursor:hand;
+	font-weight:bold;
+}
+#Berechnen:hover{
+	color:#0000FF;
+}
+#jsContainer ul{
+	margin:0;
+	padding:0;
+	padding-bottom:15px;
+}
+#jsContainer li{
+	padding:0;
+	margin:0;
+	display:inline;
+	list-style:none;
+	padding:4px;
+	cursor:pointer;
+	cursor:hand;
+	border-bottom:1px solid #000;
+}
+
+#steps{
+	margin-top:5px;
+}
+#steps span {
+	cursor:pointer;
+	cursor:hand;	
+}
+
+#steps span:hover{
+	color:#0000FF;
+}
+
+#advanced{
+	color:#999; 
+	font-size:10px;
+	cursor:pointer;
+	cursor:hand;
+}
+#advanced:hover{
+	color:#0000FF;
+}
+
+#WundNberechnen{
+	color:#0000FF;
+	font-size:13px;
+	font-weight:bold;
+	cursor:pointer;
+	cursor:hand;
+}
+#WundNberechnen:hover{
+	text-decoration:underline;
+}
+
+#nutfacktor{
+	margin-top:10px;
+	font-size:14px;
+	padding-top:5px;
+	background:;
+}
+#erweitert_einfach{
+	color:#999;
+}
+
+#erweitert_einfach:hover{
+	color:#0000FF;
+	cursor:hand;
+	cursor:pointer;
+}
+#jsContainer table{
+	font-size:9px;
+}
+
+#link_container{
+}
+
+#link_container li {
+	border:none;
+	font-weight:normal;
+}
+#link_container div {
+	border:none;
+	padding-top:3px;
+	font-weight:bold;
+}
+#hidden_links{
+	display:none;
+}
+
+#special  tr td{
+	text-align:left;
+	background:#EAEAEA;
+	padding-left:2px;
+	font-size:10px;
+	margin-top:2px;
+	padding-bottom:2px;
+}
+#special  tr td input{
+	height:10px;
+	vertical-align:bottom;
+}
+
+#jsContainer input{
+	border:1px solid #CCC;
+	background-color:#FFF;
+}
