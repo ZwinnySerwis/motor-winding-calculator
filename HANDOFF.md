@@ -41,7 +41,7 @@ Aplikacja desktopowa (exe, Python + PySide6) do projektowania PMSM promieniowych
 
 ### Git
 - Branch: `main`
-- Last commit: (ten commit handoff)
+- Last commit: `1019042` Add desktop PMSM calculator with cited presets and handoff briefing.
 - Remote: `origin` = https://github.com/ZwinnySerwis/motor-winding-calculator.git — push w tym handoffie
 
 ### Paste prompt
