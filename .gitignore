@@ -3,3 +3,11 @@ Thumbs.db
 *.log
 .idea/
 .vscode/
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.spec.bak
+.pytest_cache/

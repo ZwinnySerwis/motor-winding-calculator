@@ -1,0 +1,91 @@
+{
+  "radial_12_10": {
+    "id": "radial_12_10",
+    "name": "Radial 12/10 — small FSCW PMSM",
+    "machine_type": "radial",
+    "source": "Sato, Miki, Nakamura, Machines 2023, 11, 824, Table 1 CONV. Slot/pole combination is the textbook FSCW example (kw=0.933, Cros & Viarouge 2002). Magnetic-circuit formulae: Pyrhönen, Jokinen, Hrabovcová, Design of Rotating Electrical Machines, ch. 3–6. ke/kt: Hendershot & Miller / Hanselman.",
+    "geometry": {
+      "slots": 12,
+      "poles": 10,
+      "layers": 2,
+      "coil_span": 1,
+      "turns_per_coil": 30,
+      "parallel_paths": 1,
+      "connection": "Y",
+      "stator_od_mm": 160,
+      "stator_id_mm": 90,
+      "rotor_od_mm": 88,
+      "stack_mm": 50,
+      "airgap_mm": 1.0,
+      "yoke_mm": 14,
+      "tooth_width_mm": 14,
+      "slot_opening_mm": 3.9,
+      "magnet_thickness_mm": 3.5,
+      "magnet_width_mm": 16,
+      "skew_slots": 0,
+      "magnet_id": "N45",
+      "magnet_shape_id": "sato_16x3p5",
+      "steel_id": "M250-35A",
+      "wire_id": "d0.500",
+      "strands": 2,
+      "fill_target": 0.4
+    },
+    "operating": {
+      "voltage_v": 48,
+      "speed_rpm": 1500,
+      "current_a": 8,
+      "temp_copper_C": 80,
+      "temp_magnet_C": 60
+    },
+    "scaling": {
+      "rule": "After a diameter change, airgap, magnet thickness and yoke height keep the ratios of this preset until the field is overwritten. Ratios follow Pyrhönen ch. 6 typical PM proportions (g/D, lm/g, hy/τp).",
+      "g_over_D": 0.00625,
+      "lm_over_g": 3.5,
+      "hy_over_D": 0.0875
+    }
+  },
+  "axial_torus_18_6": {
+    "id": "axial_torus_18_6",
+    "name": "Axial TORUS 18/6 — 10 kW class",
+    "machine_type": "axial",
+    "source": "Mahmoudi, Kahourzade, Rahim, Hew, Progress In Electromagnetics Research 129, 2012, Table 4 (10 kW EV TORUS). Sizing equations are those of Gieras, Wang, Kamper, Axial Flux Permanent Magnet Brushless Machines.",
+    "geometry": {
+      "slots": 18,
+      "poles": 6,
+      "layers": 2,
+      "coil_span": 3,
+      "turns_per_coil": 10,
+      "parallel_paths": 1,
+      "connection": "Y",
+      "outer_d_mm": 240,
+      "inner_d_mm": 139,
+      "magnet_thickness_mm": 12,
+      "airgap_mm": 2.0,
+      "stator_thickness_mm": 41,
+      "rotor_yoke_mm": 9,
+      "slot_depth_mm": 11,
+      "slot_width_mm": 6,
+      "pole_arc_frac": 0.65,
+      "skew_slots": 0,
+      "magnet_id": "N42",
+      "magnet_shape_id": "block_50x25x10",
+      "steel_id": "M250-35A",
+      "wire_id": "d0.800",
+      "strands": 4,
+      "fill_target": 0.45
+    },
+    "operating": {
+      "voltage_v": 130,
+      "speed_rpm": 2000,
+      "current_a": 40,
+      "temp_copper_C": 80,
+      "temp_magnet_C": 60
+    },
+    "scaling": {
+      "rule": "Gieras typical inner/outer diameter ratio λ ≈ 0.58. Airgap and magnet thickness scale with outer diameter from this preset until overwritten.",
+      "lambda_Di_Do": 0.579,
+      "g_over_Do": 0.00833,
+      "lm_over_g": 6.0
+    }
+  }
+}
